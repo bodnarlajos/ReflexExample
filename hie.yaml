@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "ReflexExample:lib"
+
+    - path: "./app/Main.hs"
+      component: "ReflexExample:exe:ReflexExample-exe"
+
+    - path: "./app/Paths_ReflexExample.hs"
+      component: "ReflexExample:exe:ReflexExample-exe"
+
+    - path: "./test"
+      component: "ReflexExample:test:ReflexExample-test"
