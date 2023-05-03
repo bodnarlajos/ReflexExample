@@ -17,8 +17,7 @@
 #
 # resolver: ./custom-snapshot.yaml
 # resolver: https://example.com/snapshots/2018-01-01.yaml
-resolver:
-  url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/20/18.yaml
+resolver: lts-20.19
 
 # User packages to be built.
 # Various formats can be used as shown in the example below.
@@ -51,6 +50,10 @@ extra-deps:
 - zenc-0.1.2
 - commutative-semigroups-0.1.0.1
 - jsaddle-wkwebview-0.9.8.2
+- jsaddle-webkit2gtk-0.9.8.2
+- gi-webkit2-4.0.29
+- webkit2gtk3-javascriptcore-0.14.4.4
+- gi-soup-2.4.26
 
 # Override default flag values for local packages and extra-deps
 # flags: {}
