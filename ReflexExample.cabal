@@ -33,12 +33,14 @@ library
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
   build-depends:
       base >=4.7 && <5
+    , containers
     , jsaddle
     , jsaddle-dom
     , jsaddle-warp
     , reflex
     , reflex-dom
     , reflex-dom-core
+    , text
   default-language: Haskell2010
 
 executable ReflexExample-exe
@@ -51,12 +53,14 @@ executable ReflexExample-exe
   build-depends:
       ReflexExample
     , base >=4.7 && <5
+    , containers
     , jsaddle
     , jsaddle-dom
     , jsaddle-warp
     , reflex
     , reflex-dom
     , reflex-dom-core
+    , text
   default-language: Haskell2010
 
 test-suite ReflexExample-test
@@ -70,10 +74,12 @@ test-suite ReflexExample-test
   build-depends:
       ReflexExample
     , base >=4.7 && <5
+    , containers
     , jsaddle
     , jsaddle-dom
     , jsaddle-warp
     , reflex
     , reflex-dom
     , reflex-dom-core
+    , text
   default-language: Haskell2010
